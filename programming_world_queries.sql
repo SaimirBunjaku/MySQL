@@ -1,4 +1,4 @@
--- 1. Listoji kurset me departamentet ku jane:
+-- 1. Listoji kurset me departamentet ku jane bashke me emrat dhe mbiemrat e profesorve:
 SELECT Courses.Name AS CourseName, Departments.Name AS DepartmentName
 FROM Courses
 INNER JOIN Departments ON Courses.DepartmentID = Departments.DepartmentID;
